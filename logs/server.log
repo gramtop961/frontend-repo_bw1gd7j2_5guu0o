@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 676 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.56.137:3000/
+5:56:59 PM [vite] warning: The character ">" is not valid inside a JSX element
+33 |              <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm text-neutral-500">
+34 |                <div>
+35 |                  <p className="font-semibold text-neutral-900">> 50 Projekte</p>
+   |                                                                ^
+36 |                  <p>in regulierten Branchen</p>
+37 |                </div>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx
